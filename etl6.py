@@ -20,7 +20,7 @@ def fetch_weather(location):
     print(response.text)
 
 default_args = {
-    'start_date': datetime(2021, 1, 1),
+    'start_date': datetime(2024, 3, 29),
     'schedule_interval': '@daily',
     'catchup': False
 }
